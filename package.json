@@ -1,6 +1,6 @@
 {
-  "name": "react-aria-live",
-  "version": "2.0.5",
+  "name": "@shakaman/react-aria-live",
+  "version": "2.0.6",
   "description": "Add aria-live messaging to your React app",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -16,6 +16,9 @@
     "start": "nwb serve-react-demo",
     "test": "node scripts/test.js --env=jsdom",
     "format": "prettier --write --single-quote --tab-width=2 --trailing-comma=es5 --jsx-bracket-same-line src/**/*.js"
+  },
+  "publishConfig": {
+    "@shakaman:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "uuid": "^3.2.1"
